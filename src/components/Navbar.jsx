@@ -4,7 +4,7 @@ import dayjs from 'dayjs'
 import {navIcons, navLinks} from "#constants/index.js";
 
 
-export function Navbar() {
+export default function Navbar() {
     return (
         <nav>
             <div>
