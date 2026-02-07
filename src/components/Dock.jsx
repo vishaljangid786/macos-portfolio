@@ -65,7 +65,6 @@ const Dock = () => {
             console.error(`Window ${app.id} not found!`)
             return
         }
-        ;
 
         if (window.isOpen) {
             closeWindow(app.id)
