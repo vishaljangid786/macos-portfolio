@@ -264,16 +264,18 @@ body {
         }
       }
     }
-
     .gallery {
-      @apply p-5;
+      @apply px-10 py-4;
 
       ul {
-        @apply grid grid-cols-5 grid-rows-5 gap-2.5;
+        @apply grid grid-cols-5 grid-rows-5 gap-3 h-[500px];
+        /* Height control yaha se karo */
 
         li {
+          @apply w-full h-full;
+
           img {
-            @apply size-full object-cover rounded-lg;
+            @apply w-full h-full object-cover rounded-lg;
           }
 
           &:first-child {
